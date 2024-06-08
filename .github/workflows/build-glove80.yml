@@ -11,3 +11,6 @@ jobs:
       board: '["glove80_lh","glove80_rh"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
+      branches: '["petejohanson/zmk/feat/pointers-move-scroll"]'
